@@ -1,7 +1,10 @@
-**DEPRECATED LIBRARY. Adafruit Python ADS1x15**
+This library has been forked from the original to avoid breaking changes.
 
-This library has been deprecated! We are leaving this up for historical and research purposes but archiving the repository.
-
-We are now only supporting the use of our CircuitPython libraries for use with Python.
-
-Check out this guide for info on using character LCDs with the CircuitPython library: https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15
+```
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-smbus git
+cd ~
+git clone https://github.com/withgallantry/Adafruit_Python_ADS1x15
+cd Adafruit_Python_ADS1x15
+sudo python setup.py install
+```
